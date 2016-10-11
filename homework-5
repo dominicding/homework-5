@@ -3,4 +3,23 @@
 2. Because for the Knight Rider 1, it has written code for each LED light, but the for Knight Rider 2, insided of write code for 
    each light, it used {for}. And write inarray.
    
-   resistor value should be used with the LEDs?
+3.  resistor value should be used with the LEDs?
+
+i = LED forward current in Amps (found in the LED datasheet)
+Vf = LED forward voltage drop in Volts (found in the LED datasheet)
+Vs = supply voltage
+R=(Vs-Vf)/i
+
+   What current limiting resistor value should you use if you have one LED and want to power it with a supply voltage of Vs = 3.8V?
+
+To calculate the current limiting resistor, you first need to look in the datasheet (always RTFM first!)
+for the LED's recommended forward voltage and forward current specifications. In this example,
+they are 3.1V and 30mA respectively. Don't forget to convert all of your units to Volts, Amps, or Ohms! e.g. 1mA = 0.001Amps
+
+If you plug the values into the above equation, you get:
+
+R=(3.8V-3.1V)/0.03A=23.3Ohms
+
+23.3 Ohms might be an odd value to find, so round up to the next highest common value.
+
+
