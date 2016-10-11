@@ -22,4 +22,6 @@ R=(3.8V-3.1V)/0.03A=23.3Ohms
 
 23.3 Ohms might be an odd value to find, so round up to the next highest common value.
 
+https://cdn-learn.adafruit.com/downloads/pdf/adafruit-arduino-lesson-3-rgb-leds.pdf
+
 
