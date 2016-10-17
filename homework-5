@@ -1,5 +1,6 @@
 1. In the video shows, the LED connected to output pins 2 throught 7 list the sketches where will produce the iconic visual 
    effect associated with the night writher Pontiac Trans Am.
+   Because they all work differently.
 2. Because for the Knight Rider 1, it has written code for each LED light, but the for Knight Rider 2, insided of write code for 
    each light, it used {for}. And write inarray.
    
