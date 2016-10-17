@@ -13,7 +13,7 @@ R=(Vs-Vf)/i
 
    What current limiting resistor value should you use if you have one LED and want to power it with a supply voltage of Vs = 3.8V?
 
-To calculate the current limiting resistor, you first need to look in the datasheet (always RTFM first!)
+To calculate the current limiting resistor, you first need to look in the datasheet 
 for the LED's recommended forward voltage and forward current specifications. In this example,
 they are 3.1V and 30mA respectively. Don't forget to convert all of your units to Volts, Amps, or Ohms! e.g. 1mA = 0.001Amps
 
